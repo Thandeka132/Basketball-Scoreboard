@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #4B4453;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-score, .guest-score {
+   margin: 20px 0;
+   background: black;
+   width: 9em;
+   height: 7em;
+   border-radius: 5%;
+}
+
+h3 {
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+
+#count-home, #count-guest { 
+    position: relative;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #BEA6A0;
+    padding: 5px 5px;
+    font-size: 3.5em;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif; 
+    border: 1px solid white;
+    border-radius: 15%;
+    color: white;;
+    background-color: #4B4453;
+}
+
+.container {
+    text-align: center;
+}
+
+  
+
